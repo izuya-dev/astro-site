@@ -1,0 +1,29 @@
+---
+const { children } = Astro.props;
+---
+
+<>
+  <header>
+    <h1><a href="/">#is.jp</a></h1>
+    <nav>
+      <ul>
+        <li>音楽</li>
+        <li>イラスト</li>
+        <li>漫画</li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    {children}
+  </main>
+
+  <aside>
+    <p><a>サイト運営目的</a></p>
+  </aside>
+
+  <footer>
+    <p>latest edit：<time datetime="2025-04-13">2025年4月13日</time></p>
+    <p class="copyright">&copy; 2025 izuya. All rights reserved.</p>
+  </footer>
+</>

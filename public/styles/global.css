@@ -1,0 +1,11 @@
+.copyright {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+body {
+    font-family: sans-serif, "Segoe UI", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  }
+  
